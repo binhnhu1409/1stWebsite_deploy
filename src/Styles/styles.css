@@ -1,0 +1,156 @@
+html {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body{
+  background-color: #4A403A;
+}
+a:hover { text-decoration: underline; text-decoration-color:#D7E9F7; }
+a:active {color: #86BDE7;}
+
+.header-box-contain-navi-bar {
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: #4A403A;
+    z-index: 1000;
+    width: 100%
+}
+div.container-box-left{
+  text-align: left;
+  font-family: Ink Free;
+  color: #D7E9F7;
+  font-size: 38pt;
+  display: flex;
+  padding-right: 180px;
+
+}
+div.smaller-head-box{
+  padding-top: 26px;
+  padding-left: 52px;
+  padding-right: 52px;
+  display: flex;
+}
+nav.container-box-right{
+  text-align: right;
+  display: flex;
+}
+li.smallest-container{
+  margin: 0 1.25em;
+  padding: 0.86em 0;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+.navigation-bar{
+   color: #D7E9F7;
+   font-size: 20pt;
+   font-family: Comic Sans MS;
+   text-decoration-line: none;
+   text-transform: capitalize;
+}
+div.buffer-box{
+  display: block;
+  margin: 0.5em 0.5em 0.5em 0.5em;
+  padding: 0.36em 0.36em 0.36em 0.36em;
+}
+.content{
+  color: #FCD2D1;
+  font-family: Ebrima;
+  font-size: 15pt;
+  padding-left: 50px;
+  padding-right: 30px;
+}
+h1.page-title {
+  color: #D7E9F7;
+  font-size: 30pt;
+  font-family: Ink Free;
+  text-align: center;
+}
+/* On smaller screens, descease text size */
+@media only screen and (max-width: 300px) {
+  .content #show_date_time {
+    font-size: 10px;
+  }
+  .navigation-bar {
+    font-size: 13.5pt;
+  }
+  .container-box-left {
+    font-size: 15pt;
+  }
+}
+
+/* gallery + project css*/
+div.gallery {
+  border: 1px dashed #D7E9F7;
+}
+div.gallery:hover {
+  border: 1px solid #FCD2D1;
+}
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+div.pic-description {
+  color: #D7E9F7;
+  font-family: Ebrima;
+  font-size: 15pt;
+  padding: 15px;
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+/*only happen in project page */
+div#scroll-happen {
+  overflow: scroll;
+  width: inherit;
+  height: 100px;
+}
+
+/*skill page*/
+.text-inline-image {
+  vertical-align: middle;
+  padding-bottom: 10px;
+}
+.box-contain-content {
+  background-color: #889EAF;
+  font-family: Comic Sans MS;
+  font-size: 26px;
+  color: #FCD2D1;
+  width: 600px;
+  margin: 10px 68px;
+  padding: 28px;
+  display: block;
+  visibility: visible;
+  border-radius: 15px;
+}
+
+/*styling menu*/
+.sideNavi {
+text-align: right;
+}
+.sideNavi a {
+  padding: 8px 30px 8px 8px;
+  transition: 0.3s;
+}

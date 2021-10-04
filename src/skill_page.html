@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Styles/styles.css">
+    <meta name="description" content="Skills page in my personal website page">
+    <title>Nguyen Tran Binh Nhu's skill sets'</title>
+  </head>
+  <body>
+    <header>
+      <div class="sideNavi">
+        <a href="index.html" class="navigation-bar">Home</a>
+        <a href="skill_page.html" class="navigation-bar">Skills</a>
+        <a href="project_page.html" class="navigation-bar">Projects</a>
+        <a href="gallery_page.html" class="navigation-bar">Gallery</a>
+        <a href="contact_page.html" class="navigation-bar">Contact</a>
+        <a href="other_page.html" class="navigation-bar">Other things</a>
+      </div> <hr>
+      <h1 class = "page-title">My skills</h1>
+    </header>
+    <div class="content">
+      <ul id="skill-list">
+        <li id="new_skill_here"> <img id ="new_photo_here"> </li>
+        <li id="item1" class = "ListItem">Python
+          <ul>
+            <li>Code in Place 2021, offered online by Stanford University
+              <a target="_blank" href="https://codeinplace.stanford.edu/2021/showcase/1127">
+                <img src="Images\skill1.JPG" alt="my final project of the 1st Python course" class = "text-inline-image" width="100" height = "36">
+              </a>
+            </li>
+            <li>Exploratory Data Analysis with Python, offered online by Metropolia University of Applied Science
+              <a target="_blank" href="https://techclass.com/certificate/WYFKAH1M">
+                <img src="Images\skill2.JPG" alt="certificate of completion" class = "text-inline-image" width="100" height = "70  ">
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li id="item2" class = "ListItem">Version Control with Git
+          <a target="_blank" href="https://techclass.com/certificate/VSJR4GVD">
+            <img src="Images\skill4.JPG" alt="certificate of completion" class = "text-inline-image" width="100" height = "70  ">
+          </a>
+        </li>
+        <li id="item3" class = "ListItem">Computational Thinking
+          <a target="_blank" href="https://www.coursera.org/account/accomplishments/verify/Q6WNMTB9XZA3">
+            <img src="Images\skill5.JPG" alt="certificate of completion" class = "text-inline-image" width="100" height = "70  ">
+          </a>
+        </li>
+        <li id="item4" class = "ListItem">Search Engine Optimization
+          <a target="_blank" href="https://techclass.com/certificate/7SY1K8NF">
+            <img src="Images\skill3.JPG" alt="certificate of completion" class = "text-inline-image" width="100" height = "70  ">
+          </a>
+        </li>
+        <li id="item5" class = "ListItem">HTML-CSS-JavaScript</li>
+        <li id="item6" class = "ListItem">AutoCad</li>
+        <li id="item7" class = "ListItem">Basic Photoshop</li>
+      </ul>
+    </div>
+
+    <form id="SkillForm" class="box-contain-content" method="post">
+      <fieldset>
+        <legend>Adding more skills</legend>
+        <label style = "font-size:20px"> Skill:
+          <input id="skill_name" type="text" name="skill_set"></label> <br>
+        <label style = "font-size:20px"> Upload a photo related to the skill:
+          <input id="skill_photo" type="file" name="photo"></label> <br>
+        <button type="button" id="click_to_add">Submit</button>
+      </fieldset>
+    </form>
+
+    <div class = "box-contain-content">
+      Download my CV here:
+      <a target="_blank" href="https://github.com/binhnhu1409/CourseProject_TechClass_Web/blob/main/Images/Nhu_CV.docx" >DOC file</a>
+      <a target="_blank" href="https://github.com/binhnhu1409/CourseProject_TechClass_Web/blob/main/Images/Nhu_CV.pdf" >PDF file</a>
+    </div>
+
+    <script type="text/javascript" src="JS/skill.js">
+    </script>
+
+    </body>
+  </html>
